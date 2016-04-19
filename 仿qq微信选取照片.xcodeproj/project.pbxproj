@@ -15,6 +15,17 @@
 		3683066E1C27FBC500B42A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3683066C1C27FBC500B42A36 /* LaunchScreen.storyboard */; };
 		368306791C27FBC600B42A36 /* _qq______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368306781C27FBC600B42A36 /* _qq______Tests.m */; };
 		368306841C27FBC600B42A36 /* _qq______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368306831C27FBC600B42A36 /* _qq______UITests.m */; };
+		368306A01C27FC1100B42A36 /* CocoaAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368306931C27FC1100B42A36 /* CocoaAlbumViewController.m */; };
+		368306A11C27FC1100B42A36 /* CocoaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 368306951C27FC1100B42A36 /* CocoaCollectionViewCell.m */; };
+		368306A21C27FC1100B42A36 /* CocoaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368306961C27FC1100B42A36 /* CocoaCollectionViewCell.xib */; };
+		368306A31C27FC1100B42A36 /* CocoaGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 368306981C27FC1100B42A36 /* CocoaGroup.m */; };
+		368306A41C27FC1100B42A36 /* CocoaHederView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683069A1C27FC1100B42A36 /* CocoaHederView.m */; };
+		368306A51C27FC1100B42A36 /* CocoaImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683069C1C27FC1100B42A36 /* CocoaImageViewController.m */; };
+		368306A61C27FC1100B42A36 /* CocoaPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683069E1C27FC1100B42A36 /* CocoaPickerViewController.m */; };
+		368306A71C27FC1100B42A36 /* iconfont-shipin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683069F1C27FC1100B42A36 /* iconfont-shipin.png */; };
+		368306AA1C27FC5C00B42A36 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368306A81C27FC5C00B42A36 /* MyNavigationController.m */; };
+		368306AC1C27FFAE00B42A36 /* BRNImagePickerSheet-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 368306AB1C27FFAE00B42A36 /* BRNImagePickerSheet-selected@2x.png */; };
+		368306AE1C27FFC000B42A36 /* BRNImagePickerSheet-checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 368306AD1C27FFC000B42A36 /* BRNImagePickerSheet-checkmark@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,24 @@
 		3683067F1C27FBC600B42A36 /* 仿qq微信选取照片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿qq微信选取照片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		368306831C27FBC600B42A36 /* _qq______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_qq______UITests.m"; sourceTree = "<group>"; };
 		368306851C27FBC600B42A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368306921C27FC1100B42A36 /* CocoaAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAlbumViewController.h; sourceTree = "<group>"; };
+		368306931C27FC1100B42A36 /* CocoaAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaAlbumViewController.m; sourceTree = "<group>"; };
+		368306941C27FC1100B42A36 /* CocoaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaCollectionViewCell.h; sourceTree = "<group>"; };
+		368306951C27FC1100B42A36 /* CocoaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaCollectionViewCell.m; sourceTree = "<group>"; };
+		368306961C27FC1100B42A36 /* CocoaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CocoaCollectionViewCell.xib; sourceTree = "<group>"; };
+		368306971C27FC1100B42A36 /* CocoaGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaGroup.h; sourceTree = "<group>"; };
+		368306981C27FC1100B42A36 /* CocoaGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaGroup.m; sourceTree = "<group>"; };
+		368306991C27FC1100B42A36 /* CocoaHederView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaHederView.h; sourceTree = "<group>"; };
+		3683069A1C27FC1100B42A36 /* CocoaHederView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaHederView.m; sourceTree = "<group>"; };
+		3683069B1C27FC1100B42A36 /* CocoaImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaImageViewController.h; sourceTree = "<group>"; };
+		3683069C1C27FC1100B42A36 /* CocoaImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaImageViewController.m; sourceTree = "<group>"; };
+		3683069D1C27FC1100B42A36 /* CocoaPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPickerViewController.h; sourceTree = "<group>"; };
+		3683069E1C27FC1100B42A36 /* CocoaPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPickerViewController.m; sourceTree = "<group>"; };
+		3683069F1C27FC1100B42A36 /* iconfont-shipin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shipin.png"; sourceTree = "<group>"; };
+		368306A81C27FC5C00B42A36 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		368306A91C27FC5C00B42A36 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		368306AB1C27FFAE00B42A36 /* BRNImagePickerSheet-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BRNImagePickerSheet-selected@2x.png"; sourceTree = "<group>"; };
+		368306AD1C27FFC000B42A36 /* BRNImagePickerSheet-checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BRNImagePickerSheet-checkmark@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +130,7 @@
 		3683065D1C27FBC500B42A36 /* 仿qq微信选取照片 */ = {
 			isa = PBXGroup;
 			children = (
+				368306911C27FC1100B42A36 /* zejunphotoPicker */,
 				368306611C27FBC500B42A36 /* AppDelegate.h */,
 				368306621C27FBC500B42A36 /* AppDelegate.m */,
 				368306641C27FBC500B42A36 /* ViewController.h */,
@@ -138,6 +168,31 @@
 				368306851C27FBC600B42A36 /* Info.plist */,
 			);
 			path = "仿qq微信选取照片UITests";
+			sourceTree = "<group>";
+		};
+		368306911C27FC1100B42A36 /* zejunphotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3683069F1C27FC1100B42A36 /* iconfont-shipin.png */,
+				368306AD1C27FFC000B42A36 /* BRNImagePickerSheet-checkmark@2x.png */,
+				368306AB1C27FFAE00B42A36 /* BRNImagePickerSheet-selected@2x.png */,
+				368306A81C27FC5C00B42A36 /* MyNavigationController.m */,
+				368306A91C27FC5C00B42A36 /* MyNavigationController.h */,
+				368306921C27FC1100B42A36 /* CocoaAlbumViewController.h */,
+				368306931C27FC1100B42A36 /* CocoaAlbumViewController.m */,
+				368306941C27FC1100B42A36 /* CocoaCollectionViewCell.h */,
+				368306951C27FC1100B42A36 /* CocoaCollectionViewCell.m */,
+				368306961C27FC1100B42A36 /* CocoaCollectionViewCell.xib */,
+				368306971C27FC1100B42A36 /* CocoaGroup.h */,
+				368306981C27FC1100B42A36 /* CocoaGroup.m */,
+				368306991C27FC1100B42A36 /* CocoaHederView.h */,
+				3683069A1C27FC1100B42A36 /* CocoaHederView.m */,
+				3683069B1C27FC1100B42A36 /* CocoaImageViewController.h */,
+				3683069C1C27FC1100B42A36 /* CocoaImageViewController.m */,
+				3683069D1C27FC1100B42A36 /* CocoaPickerViewController.h */,
+				3683069E1C27FC1100B42A36 /* CocoaPickerViewController.m */,
+			);
+			path = zejunphotoPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368306AC1C27FFAE00B42A36 /* BRNImagePickerSheet-selected@2x.png in Resources */,
+				368306A21C27FC1100B42A36 /* CocoaCollectionViewCell.xib in Resources */,
+				368306AE1C27FFC000B42A36 /* BRNImagePickerSheet-checkmark@2x.png in Resources */,
 				3683066E1C27FBC500B42A36 /* LaunchScreen.storyboard in Resources */,
 				3683066B1C27FBC500B42A36 /* Assets.xcassets in Resources */,
+				368306A71C27FC1100B42A36 /* iconfont-shipin.png in Resources */,
 				368306691C27FBC500B42A36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368306A41C27FC1100B42A36 /* CocoaHederView.m in Sources */,
 				368306661C27FBC500B42A36 /* ViewController.m in Sources */,
 				368306631C27FBC500B42A36 /* AppDelegate.m in Sources */,
+				368306A61C27FC1100B42A36 /* CocoaPickerViewController.m in Sources */,
+				368306A11C27FC1100B42A36 /* CocoaCollectionViewCell.m in Sources */,
+				368306A51C27FC1100B42A36 /* CocoaImageViewController.m in Sources */,
+				368306A01C27FC1100B42A36 /* CocoaAlbumViewController.m in Sources */,
 				368306601C27FBC500B42A36 /* main.m in Sources */,
+				368306A31C27FC1100B42A36 /* CocoaGroup.m in Sources */,
+				368306AA1C27FC5C00B42A36 /* MyNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "仿qq微信选取照片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bxkj.-qq------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "仿qq微信选取照片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bxkj.-qq------";
 				PRODUCT_NAME = "$(TARGET_NAME)";

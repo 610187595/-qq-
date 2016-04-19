@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "CocoaPickerViewController.h"
+@interface ViewController ()<CocoaPickerViewControllerDelegate>
 
 @end
 
@@ -17,6 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)btnClick:(UIButton *)sender {
+    [self composePicAdd];
+}
+- (void)composePicAdd
+{
+    self.view.window.rootViewController.modalPresentationStyle = UIModalPresentationCurrentContext;//半透明
+    CocoaPickerViewController *transparentView = [[CocoaPickerViewController alloc] init];
+    transparentView.delegate = self;
+    transparentView.modalPresentationStyle = UIModalPresentationOverFullScreen;
+    transparentView.view.frame=self.view.frame;
+    //        transparentView.view.superview.backgroundColor = [UIColor clearColor];
+    [self presentViewController:transparentView animated:YES completion:nil];
+}
+- (void)CocoaPickerViewSendBackWithImage:(NSArray *)imageArray andString:(NSString *)str{
+    
 }
 
 - (void)didReceiveMemoryWarning {
